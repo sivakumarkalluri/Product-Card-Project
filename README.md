@@ -7,4 +7,4 @@
 </p>
 <h4>Click the below link to view live website</h4>
 
-<a href='https://www.linkpicture.com/view.php?img=LPic6400b2627ff0b2145310308'><img align="center" src='https://www.linkpicture.com/q/editor-1s-47px.gif' type='image'></a> <a href="https://sivakumarkalluri.github.io/Product-Card-Project/" target="blank"><img align="center" src="https://img.shields.io/badge/Link-https%3A%2F%2Fsivakumarkalluri.github.io%2FProduct--Card--Project%2F-blue" style="margin-top:50px;"> </a>
+<img align="center" src='https://www.linkpicture.com/q/editor-1s-47px.gif' type='image'> <a href="https://sivakumarkalluri.github.io/Product-Card-Project/" target="_blank"><img align="center" src="https://img.shields.io/badge/Link-https%3A%2F%2Fsivakumarkalluri.github.io%2FProduct--Card--Project%2F-blue" style="margin-top:50px;"> </a>
