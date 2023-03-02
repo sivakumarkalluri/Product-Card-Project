@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    overflow-y: auto;
+    justify-content: center;
+    align-content: center;
+    background-color:rgb(238, 232, 224);
+
+}
+.container{
+    display: flex;
+    border-radius: 20px;
+    
+    max-width: 55%;
+    height: 70%;
+    
+}
+.desc{
+    /* overflow: hidden; */
+    width: 100%;
+    border-top-right-radius:7%;
+    border-bottom-right-radius:7%;
+    background-color: white;
+    padding: 3% 5% 5% 5%;
+}
+#mug{
+    width: 100%;
+    border-top-left-radius:7%;
+    border-bottom-left-radius:7%;
+}
+#header1{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
+    color: grey;
+}
+#header2{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "Fraunces", serif;
+    margin-top: 7%;
+    letter-spacing: 2px;
+    margin-bottom: 7%;
+}
+#about{
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 7%;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+}
+#price{
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 7%;
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+}
+#org_price{
+    font-size: 1.3rem;
+    display: inline-block;
+    margin-left: 4%;
+}
+.cart{
+    border-radius: 10px;
+    height: 13%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color:  hsl(158, 36%, 37%);
+}
+#cart_text{
+    font-size: 18px;
+    color: white;
+    margin-left: 4%;
+}
+.cart:hover{
+    cursor: pointer;
+    background-color: hsl(156, 24%, 24%);
+}
+
+
+@media (max-width: 1020px){
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 50%;
+    }
+    #mug{
+        border-top-right-radius:7%;
+        border-top-left-radius:7%;
+        border-bottom-right-radius:0%;
+        border-bottom-left-radius:0%;
+        height: 60%;
+    }
+    .desc{
+        border-top-right-radius:0%;
+        border-top-left-radius:0%;
+        border-bottom-right-radius:7%;
+        border-bottom-left-radius:7%;
+        min-height: 80%;
+        max-width: 100%;
+       
+    }
+}
